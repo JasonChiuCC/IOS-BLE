@@ -13,6 +13,7 @@
 		E6317D0F1D75CB9C00ABE34A /* IOS_BLE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6317D0D1D75CB9C00ABE34A /* IOS_BLE.xcdatamodeld */; };
 		E6317D111D75CB9C00ABE34A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6317D101D75CB9C00ABE34A /* Assets.xcassets */; };
 		E6317D141D75CB9C00ABE34A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6317D121D75CB9C00ABE34A /* LaunchScreen.storyboard */; };
+		E6317D1E1D75CED100ABE34A /* BleTblVwCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6317D1D1D75CED100ABE34A /* BleTblVwCtrl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E6317D101D75CB9C00ABE34A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6317D131D75CB9C00ABE34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6317D151D75CB9C00ABE34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6317D1D1D75CED100ABE34A /* BleTblVwCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleTblVwCtrl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,14 @@
 		E6317D051D75CB9C00ABE34A /* IOS-BLE */ = {
 			isa = PBXGroup;
 			children = (
-				E6317D061D75CB9C00ABE34A /* AppDelegate.swift */,
-				E6317D081D75CB9C00ABE34A /* ViewController.swift */,
-				E6317D0A1D75CB9C00ABE34A /* Main.storyboard */,
-				E6317D101D75CB9C00ABE34A /* Assets.xcassets */,
-				E6317D121D75CB9C00ABE34A /* LaunchScreen.storyboard */,
 				E6317D151D75CB9C00ABE34A /* Info.plist */,
+				E6317D061D75CB9C00ABE34A /* AppDelegate.swift */,
+				E6317D1D1D75CED100ABE34A /* BleTblVwCtrl.swift */,
+				E6317D081D75CB9C00ABE34A /* ViewController.swift */,
+				E6317D101D75CB9C00ABE34A /* Assets.xcassets */,
 				E6317D0D1D75CB9C00ABE34A /* IOS_BLE.xcdatamodeld */,
+				E6317D121D75CB9C00ABE34A /* LaunchScreen.storyboard */,
+				E6317D0A1D75CB9C00ABE34A /* Main.storyboard */,
 			);
 			path = "IOS-BLE";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6317D1E1D75CED100ABE34A /* BleTblVwCtrl.swift in Sources */,
 				E6317D091D75CB9C00ABE34A /* ViewController.swift in Sources */,
 				E6317D0F1D75CB9C00ABE34A /* IOS_BLE.xcdatamodeld in Sources */,
 				E6317D071D75CB9C00ABE34A /* AppDelegate.swift in Sources */,
@@ -292,6 +296,7 @@
 				E6317D1A1D75CB9C00ABE34A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
